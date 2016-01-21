@@ -1,0 +1,22 @@
+{
+  "name": "sevikon/yii2-ajax-search",
+  "type": "yii2-extension",
+  "description": "Ajax Search Widget",
+  "keywords": ["yii2", "ajax", "search"],
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Konrad Seweryn",
+      "email": "sevikon@gmail.com"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "*",
+    "bower-asset/jquery": "2.1.*@stable | 1.11.*@stable"
+  },
+  "autoload": {
+    "psr-4": {
+      "sevikon\\ajaxSearch\\": ""
+    }
+  }
+}
